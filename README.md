@@ -1,26 +1,33 @@
-Overleaf Link: https://www.overleaf.com/project/69e5864f9676b0b086932732
+# Changepoint Detection of Coverage Bias
 
-01.06.26
-- added EDA notebook
-- for events: sample is 100 randomly selected events from first 10,000 of every day in 2016
-- for mentions: sample is 100 randomly selected files out of ~35,000 for 2016 concatenated 
+This repository contains the code accompanying a research project on detecting
+structural changes in global media coverage using changepoint detection methods.
 
-26.05.26
-Added codes for TIRE implementation
+The project uses multivariate time-series signals derived from GDELT and compares
+several deep-learning approaches with a classical statistical baseline. The
+repository includes code for data preprocessing, model training and inference,
+changepoint analysis, and evaluation.
 
-20.05.26
-Added python codes:
-daily_mentions.ipynb: concatenates 15-minute interval mentions into daily intervals
-merge_events_and_mentions.ipynb: merges events and mentions -> columns still need to be selected and named
+## Methods
 
-19.05.26
-Added Markdown file explaining the model selection process
+The evaluated approaches include:
 
-15.05.26
-Added python codes used up to this point
-fetch_events.ipynb:  downloads events onto SSD
+- TIRE
+- TS-CP2
+- SN-TS2Vec
+- CorD-CPD
+- Ruptures (statistical baseline)
 
+Evaluation includes comparisons between model outputs, synthetic changepoint
+experiments, and analysis of detected changes in relation to real-world events.
 
-Current status (13.05.2026)
-Develop table of offline unsupervised change point detection (CPD) / Time-series Anomaly Detection (TSAD):
-https://docs.google.com/spreadsheets/d/1V6Z4Csu5-yCCK37HN9qh6lAa1oUPPZ4g98eqXBooGRg/edit?gid=0#gid=0
+## Data
+
+The analysis is based on data from the GDELT project. Raw GDELT data are not
+included in this repository.
+
+## Repository Structure
+
+The repository contains scripts and notebooks for preprocessing, model
+experiments, evaluation, and visualization. Further methodological details are
+provided in the accompanying paper.
