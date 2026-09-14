@@ -1,0 +1,319 @@
+process data
+set model and train
+process data
+set model and train
+process data
+set model and train
+Epoch:    0, mse_train: 2221234.7500, delta_train: 2485.3494, acc_train: nan, epoch time: 2.71s
+Epoch:    1, mse_train: 1562669.7500, delta_train: 3737.5014, acc_train: nan, epoch time: 2.47s
+Epoch:    2, mse_train: 1484990.3636, delta_train: 3338.7180, acc_train: nan, epoch time: 2.77s
+Epoch:    3, mse_train: 1439775.1193, delta_train: 5174.6135, acc_train: nan, epoch time: 3.74s
+process data
+set model and train
+process data
+set model and train
+Epoch:    0, mse_train: 1493873.1500, delta_train: 3086.2845, acc_train: nan, epoch time: 1.30s
+Epoch:    1, mse_train: 1065827.4250, delta_train: 3909.3910, acc_train: nan, epoch time: 1.10s
+Epoch:    2, mse_train: 822196.5125, delta_train: 4015.4892, acc_train: nan, epoch time: 0.98s
+Epoch:    3, mse_train: 761496.4812, delta_train: 3570.0919, acc_train: nan, epoch time: 1.15s
+process data
+set model and train
+Epoch:    0, mse_train: 1493873.1500, delta_train: 3086.2845, acc_train: nan, epoch time: 1.24s
+Epoch:    1, mse_train: 1065827.4250, delta_train: 3909.3910, acc_train: nan, epoch time: 1.17s
+Epoch:    2, mse_train: 822196.5125, delta_train: 4015.4892, acc_train: nan, epoch time: 1.08s
+Epoch:    3, mse_train: 761496.4812, delta_train: 3570.0919, acc_train: nan, epoch time: 1.17s
+Epoch:    4, mse_train: 738903.2125, delta_train: 3107.7150, acc_train: nan, epoch time: 1.03s
+Epoch:    5, mse_train: 727399.2125, delta_train: 2930.0030, acc_train: nan, epoch time: 1.06s
+Epoch:    6, mse_train: 722191.6500, delta_train: 2826.5730, acc_train: nan, epoch time: 1.01s
+Epoch:    7, mse_train: 708659.3812, delta_train: 2685.9174, acc_train: nan, epoch time: 1.13s
+Epoch:    8, mse_train: 683054.9125, delta_train: 2304.5187, acc_train: nan, epoch time: 1.30s
+Epoch:    9, mse_train: 669859.9250, delta_train: 1981.5175, acc_train: nan, epoch time: 1.42s
+Epoch:   10, mse_train: 669954.8000, delta_train: 1971.7300, acc_train: nan, epoch time: 1.42s
+Epoch:   11, mse_train: 667999.6625, delta_train: 2012.3530, acc_train: nan, epoch time: 1.51s
+Epoch:   12, mse_train: 669709.1250, delta_train: 1930.0338, acc_train: nan, epoch time: 1.37s
+Epoch:   13, mse_train: 663870.4750, delta_train: 1991.7794, acc_train: nan, epoch time: 1.46s
+Epoch:   14, mse_train: 665670.8313, delta_train: 1838.3003, acc_train: nan, epoch time: 1.43s
+Epoch:   15, mse_train: 664060.1188, delta_train: 1915.0424, acc_train: nan, epoch time: 1.37s
+Epoch:   16, mse_train: 654825.8875, delta_train: 1758.0678, acc_train: nan, epoch time: 1.46s
+Epoch:   17, mse_train: 648040.2000, delta_train: 1598.2860, acc_train: nan, epoch time: 1.33s
+Epoch:   18, mse_train: 630785.7625, delta_train: 1846.0136, acc_train: nan, epoch time: 1.57s
+Epoch:   19, mse_train: 622698.6188, delta_train: 2145.2088, acc_train: nan, epoch time: 1.34s
+Epoch:   20, mse_train: 639432.2750, delta_train: 1965.5441, acc_train: nan, epoch time: 1.54s
+Epoch:   21, mse_train: 618337.2562, delta_train: 1819.3099, acc_train: nan, epoch time: 1.26s
+Epoch:   22, mse_train: 614963.8250, delta_train: 1779.4057, acc_train: nan, epoch time: 1.82s
+Epoch:   23, mse_train: 626673.4625, delta_train: 1795.4339, acc_train: nan, epoch time: 2.55s
+Epoch:   24, mse_train: 614651.2250, delta_train: 2025.1853, acc_train: nan, epoch time: 1.76s
+Epoch:   25, mse_train: 614024.4000, delta_train: 1877.6458, acc_train: nan, epoch time: 1.82s
+Epoch:   26, mse_train: 604080.2688, delta_train: 2174.9235, acc_train: nan, epoch time: 2.29s
+Epoch:   27, mse_train: 589779.6375, delta_train: 2481.8208, acc_train: nan, epoch time: 1.92s
+Epoch:   28, mse_train: 602254.3562, delta_train: 2152.0019, acc_train: nan, epoch time: 1.91s
+Epoch:   29, mse_train: 604962.7937, delta_train: 1882.2275, acc_train: nan, epoch time: 2.70s
+Epoch:   30, mse_train: 593553.4437, delta_train: 1763.7920, acc_train: nan, epoch time: 1.85s
+Epoch:   31, mse_train: 598118.6562, delta_train: 2061.9728, acc_train: nan, epoch time: 3.09s
+Epoch:   32, mse_train: 593520.0563, delta_train: 2136.3264, acc_train: nan, epoch time: 1.97s
+Epoch:   33, mse_train: 594463.0813, delta_train: 1777.4838, acc_train: nan, epoch time: 2.71s
+Epoch:   34, mse_train: 594591.9938, delta_train: 2177.9303, acc_train: nan, epoch time: 2.85s
+Epoch:   35, mse_train: 587913.0875, delta_train: 1909.2032, acc_train: nan, epoch time: 1.81s
+Epoch:   36, mse_train: 577244.4375, delta_train: 1935.7164, acc_train: nan, epoch time: 1.56s
+Epoch:   37, mse_train: 587135.0125, delta_train: 1866.3385, acc_train: nan, epoch time: 1.94s
+Epoch:   38, mse_train: 581674.3250, delta_train: 1967.0134, acc_train: nan, epoch time: 1.89s
+Epoch:   39, mse_train: 574305.7562, delta_train: 1823.1455, acc_train: nan, epoch time: 1.61s
+Epoch:   40, mse_train: 575770.5563, delta_train: 1786.8604, acc_train: nan, epoch time: 1.72s
+Epoch:   41, mse_train: 570844.5625, delta_train: 1720.1828, acc_train: nan, epoch time: 1.77s
+Epoch:   42, mse_train: 588630.6562, delta_train: 2000.8850, acc_train: nan, epoch time: 1.71s
+Epoch:   43, mse_train: 568404.7656, delta_train: 2013.5232, acc_train: nan, epoch time: 1.92s
+Epoch:   44, mse_train: 570349.8656, delta_train: 1693.5542, acc_train: nan, epoch time: 1.93s
+Epoch:   45, mse_train: 562630.4156, delta_train: 1625.1223, acc_train: nan, epoch time: 1.78s
+Epoch:   46, mse_train: 561326.6562, delta_train: 1826.7251, acc_train: nan, epoch time: 1.67s
+Epoch:   47, mse_train: 561965.7969, delta_train: 1956.6248, acc_train: nan, epoch time: 1.95s
+Epoch:   48, mse_train: 559106.5563, delta_train: 1923.8179, acc_train: nan, epoch time: 1.78s
+Epoch:   49, mse_train: 565153.6125, delta_train: 2098.0984, acc_train: nan, epoch time: 1.75s
+Optimization Finished!
+Best Epoch: 0000
+process data
+set model and train
+Epoch:    0, mse_train: 1498024.0500, delta_train: 2529.3383, acc_train: nan, epoch time: 1.38s
+Epoch:    1, mse_train: 1065052.2688, delta_train: 3683.0611, acc_train: nan, epoch time: 1.12s
+Epoch:    2, mse_train: 853202.5375, delta_train: 3541.5463, acc_train: nan, epoch time: 1.20s
+Epoch:    3, mse_train: 808531.6000, delta_train: 4177.6982, acc_train: nan, epoch time: 1.28s
+Epoch:    4, mse_train: 776710.3812, delta_train: 3218.9684, acc_train: nan, epoch time: 1.08s
+Epoch:    5, mse_train: 736592.1000, delta_train: 3658.3712, acc_train: nan, epoch time: 1.18s
+Epoch:    6, mse_train: 717065.0875, delta_train: 3166.0110, acc_train: nan, epoch time: 1.12s
+Epoch:    7, mse_train: 707608.6813, delta_train: 2746.2342, acc_train: nan, epoch time: 1.04s
+Epoch:    8, mse_train: 699778.6687, delta_train: 2403.4084, acc_train: nan, epoch time: 1.56s
+Epoch:    9, mse_train: 685102.7000, delta_train: 2043.7261, acc_train: nan, epoch time: 1.28s
+Epoch:   10, mse_train: 689380.0875, delta_train: 2023.8881, acc_train: nan, epoch time: 1.54s
+Epoch:   11, mse_train: 680244.3500, delta_train: 1932.6474, acc_train: nan, epoch time: 1.74s
+Epoch:   12, mse_train: 675880.8688, delta_train: 1829.1848, acc_train: nan, epoch time: 1.89s
+Epoch:   13, mse_train: 670758.7937, delta_train: 1673.0863, acc_train: nan, epoch time: 1.49s
+Epoch:   14, mse_train: 666799.9750, delta_train: 1691.4003, acc_train: nan, epoch time: 1.53s
+Epoch:   15, mse_train: 659832.1438, delta_train: 1850.1844, acc_train: nan, epoch time: 1.50s
+Epoch:   16, mse_train: 656572.5625, delta_train: 1589.2483, acc_train: nan, epoch time: 1.51s
+Epoch:   17, mse_train: 641045.2750, delta_train: 1869.8875, acc_train: nan, epoch time: 1.50s
+Epoch:   18, mse_train: 641078.3500, delta_train: 1722.0864, acc_train: nan, epoch time: 1.56s
+Epoch:   19, mse_train: 637087.8562, delta_train: 1704.7559, acc_train: nan, epoch time: 1.79s
+Epoch:   20, mse_train: 633919.1375, delta_train: 1562.5156, acc_train: nan, epoch time: 1.75s
+Epoch:   21, mse_train: 644842.4313, delta_train: 2043.2253, acc_train: nan, epoch time: 1.69s
+Epoch:   22, mse_train: 629520.6000, delta_train: 2449.8964, acc_train: nan, epoch time: 1.56s
+Epoch:   23, mse_train: 630761.3187, delta_train: 2337.6178, acc_train: nan, epoch time: 1.71s
+Epoch:   24, mse_train: 630289.9313, delta_train: 2004.5665, acc_train: nan, epoch time: 1.42s
+Epoch:   25, mse_train: 620293.8438, delta_train: 2386.2110, acc_train: nan, epoch time: 1.65s
+Epoch:   26, mse_train: 624173.3063, delta_train: 2344.9541, acc_train: nan, epoch time: 1.46s
+Epoch:   27, mse_train: 614630.9938, delta_train: 2627.3896, acc_train: nan, epoch time: 1.73s
+Epoch:   28, mse_train: 611660.6250, delta_train: 2597.4228, acc_train: nan, epoch time: 1.38s
+Epoch:   29, mse_train: 605817.7688, delta_train: 2867.5949, acc_train: nan, epoch time: 1.64s
+Epoch:   30, mse_train: 605905.1062, delta_train: 2722.8741, acc_train: nan, epoch time: 1.36s
+Epoch:   31, mse_train: 610680.7312, delta_train: 2403.5646, acc_train: nan, epoch time: 1.67s
+Epoch:   32, mse_train: 606202.7125, delta_train: 2450.5050, acc_train: nan, epoch time: 1.69s
+Epoch:   33, mse_train: 593757.8625, delta_train: 2383.8297, acc_train: nan, epoch time: 1.69s
+Epoch:   34, mse_train: 589881.8812, delta_train: 1968.5332, acc_train: nan, epoch time: 1.75s
+Epoch:   35, mse_train: 589038.9563, delta_train: 2091.2456, acc_train: nan, epoch time: 1.51s
+Epoch:   36, mse_train: 591621.9250, delta_train: 1859.2276, acc_train: nan, epoch time: 1.62s
+Epoch:   37, mse_train: 583263.4187, delta_train: 1675.5358, acc_train: nan, epoch time: 1.44s
+Epoch:   38, mse_train: 577766.4313, delta_train: 1781.3316, acc_train: nan, epoch time: 1.64s
+Epoch:   39, mse_train: 576077.4875, delta_train: 1951.5293, acc_train: nan, epoch time: 1.58s
+Epoch:   40, mse_train: 574750.0875, delta_train: 1629.2868, acc_train: nan, epoch time: 1.81s
+Epoch:   41, mse_train: 580174.4500, delta_train: 1876.3282, acc_train: nan, epoch time: 1.54s
+Epoch:   42, mse_train: 570437.4750, delta_train: 2010.4149, acc_train: nan, epoch time: 1.71s
+Epoch:   43, mse_train: 580761.0563, delta_train: 1691.1708, acc_train: nan, epoch time: 1.35s
+Epoch:   44, mse_train: 580741.8063, delta_train: 1975.6380, acc_train: nan, epoch time: 1.62s
+Epoch:   45, mse_train: 575129.6250, delta_train: 2122.5322, acc_train: nan, epoch time: 1.40s
+Epoch:   46, mse_train: 574385.8000, delta_train: 2065.1166, acc_train: nan, epoch time: 1.65s
+Epoch:   47, mse_train: 571694.2562, delta_train: 2015.5289, acc_train: nan, epoch time: 1.36s
+Epoch:   48, mse_train: 576522.5563, delta_train: 2208.0106, acc_train: nan, epoch time: 1.69s
+Epoch:   49, mse_train: 601244.1250, delta_train: 1964.4015, acc_train: nan, epoch time: 1.39s
+Optimization Finished!
+Best Epoch: 0000
+process data
+set model and train
+Epoch:    0, mse_train: 1498024.0500, delta_train: 2529.3383, acc_train: nan, epoch time: 1.39s
+Epoch:    1, mse_train: 1065052.2688, delta_train: 3683.0611, acc_train: nan, epoch time: 1.55s
+Epoch:    2, mse_train: 853202.5375, delta_train: 3541.5463, acc_train: nan, epoch time: 1.47s
+Epoch:    3, mse_train: 808531.6000, delta_train: 4177.6982, acc_train: nan, epoch time: 1.73s
+process data
+set model and train
+process data
+set model and train
+Epoch:    0, mse_train: 24399.1110, delta_train: 687.9861, acc_train: nan, epoch time: 1.26s
+Epoch:    1, mse_train: 14367.9852, delta_train: 285.0130, acc_train: nan, epoch time: 1.18s
+Epoch:    2, mse_train: 13199.9864, delta_train: 181.9735, acc_train: nan, epoch time: 1.07s
+Epoch:    3, mse_train: 12465.6689, delta_train: 223.9917, acc_train: nan, epoch time: 1.12s
+process data
+set model and train
+Epoch:    0, mse_train: 24399.1110, delta_train: 687.9861, acc_train: nan, epoch time: 1.22s
+Epoch:    1, mse_train: 14367.9852, delta_train: 285.0130, acc_train: nan, epoch time: 1.16s
+Epoch:    2, mse_train: 13199.9864, delta_train: 181.9735, acc_train: nan, epoch time: 1.14s
+Epoch:    3, mse_train: 12465.6689, delta_train: 223.9917, acc_train: nan, epoch time: 1.17s
+process data
+set model and train
+Epoch:    0, mse_train: 24399.1110, delta_train: 687.9861, acc_train: nan, epoch time: 1.62s
+Epoch:    1, mse_train: 14367.9852, delta_train: 285.0130, acc_train: nan, epoch time: 1.61s
+Epoch:    2, mse_train: 13199.9864, delta_train: 181.9735, acc_train: nan, epoch time: 1.54s
+Epoch:    3, mse_train: 12465.6689, delta_train: 223.9917, acc_train: nan, epoch time: 1.67s
+process data
+set model and train
+process data
+set model and train
+process data
+set model and train
+process data
+set model and train
+Epoch:    0, mse_train: 1506859.9625, delta_train: 2361.8352, acc_train: nan, epoch time: 1.26s
+Epoch:    1, mse_train: 1022466.9750, delta_train: 3493.1315, acc_train: nan, epoch time: 1.29s
+Epoch:    2, mse_train: 838241.0687, delta_train: 3885.7279, acc_train: nan, epoch time: 1.20s
+Epoch:    3, mse_train: 769238.3438, delta_train: 3702.3098, acc_train: nan, epoch time: 1.29s
+------------------------------
+------------------------------
+save best model at epoch : 4
+Epoch:    4, mse_train: 727911.4062, delta_train: 2967.6419, acc_train: nan, epoch time: 1.18s|| mse_val: 698836.9062, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 6.39s ||
+Epoch:    5, mse_train: 711382.2812, delta_train: 2285.1756, acc_train: nan, epoch time: 1.25s
+Epoch:    6, mse_train: 698406.6625, delta_train: 2173.6966, acc_train: nan, epoch time: 1.23s
+Epoch:    7, mse_train: 685745.6000, delta_train: 2235.9754, acc_train: nan, epoch time: 1.27s
+Epoch:    8, mse_train: 671474.7000, delta_train: 2007.5152, acc_train: nan, epoch time: 1.23s
+------------------------------
+------------------------------
+save best model at epoch : 9
+Epoch:    9, mse_train: 676296.3313, delta_train: 1948.4972, acc_train: nan, epoch time: 1.27s|| mse_val: 678510.0625, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 12.82s ||
+Epoch:   10, mse_train: 672183.0000, delta_train: 1798.3438, acc_train: nan, epoch time: 1.24s
+Epoch:   11, mse_train: 668037.4187, delta_train: 1837.4736, acc_train: nan, epoch time: 1.33s
+Epoch:   12, mse_train: 669902.7188, delta_train: 2109.7958, acc_train: nan, epoch time: 1.43s
+Epoch:   13, mse_train: 662772.6375, delta_train: 1935.7603, acc_train: nan, epoch time: 1.30s
+------------------------------
+------------------------------
+Epoch:   14, mse_train: 660839.2500, delta_train: 1839.0629, acc_train: nan, epoch time: 1.27s|| mse_val: 687140.9375, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 19.58s ||
+Epoch:   15, mse_train: 659218.5563, delta_train: 1903.9623, acc_train: nan, epoch time: 1.39s
+Epoch:   16, mse_train: 656367.6375, delta_train: 1544.3209, acc_train: nan, epoch time: 1.63s
+Epoch:   17, mse_train: 651168.1562, delta_train: 1740.6687, acc_train: nan, epoch time: 1.65s
+Epoch:   18, mse_train: 641499.6937, delta_train: 2217.1967, acc_train: nan, epoch time: 1.60s
+------------------------------
+------------------------------
+save best model at epoch : 19
+Epoch:   19, mse_train: 631680.5563, delta_train: 2011.3003, acc_train: nan, epoch time: 1.91s|| mse_val: 636333.2500, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 27.94s ||
+Epoch:   20, mse_train: 617855.4125, delta_train: 2121.3635, acc_train: nan, epoch time: 1.80s
+Epoch:   21, mse_train: 615331.8938, delta_train: 1896.0180, acc_train: nan, epoch time: 1.79s
+Epoch:   22, mse_train: 607945.6875, delta_train: 2158.9091, acc_train: nan, epoch time: 1.78s
+Epoch:   23, mse_train: 607184.0938, delta_train: 1987.7876, acc_train: nan, epoch time: 1.59s
+------------------------------
+------------------------------
+Epoch:   24, mse_train: 611332.8500, delta_train: 2384.9077, acc_train: nan, epoch time: 1.73s|| mse_val: 640506.1562, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 36.87s ||
+Epoch:   25, mse_train: 606755.9062, delta_train: 2411.1082, acc_train: nan, epoch time: 1.66s
+Epoch:   26, mse_train: 598160.5500, delta_train: 1869.7260, acc_train: nan, epoch time: 1.67s
+Epoch:   27, mse_train: 597779.1625, delta_train: 2246.4900, acc_train: nan, epoch time: 1.61s
+Epoch:   28, mse_train: 610065.9875, delta_train: 2519.8720, acc_train: nan, epoch time: 1.77s
+------------------------------
+------------------------------
+save best model at epoch : 29
+Epoch:   29, mse_train: 612104.8063, delta_train: 2250.2857, acc_train: nan, epoch time: 1.64s|| mse_val: 635818.7188, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 45.43s ||
+Epoch:   30, mse_train: 607191.3688, delta_train: 2024.8509, acc_train: nan, epoch time: 1.73s
+Epoch:   31, mse_train: 611117.1062, delta_train: 1798.9174, acc_train: nan, epoch time: 1.64s
+Epoch:   32, mse_train: 600510.6562, delta_train: 1750.4821, acc_train: nan, epoch time: 1.70s
+Epoch:   33, mse_train: 609823.1875, delta_train: 1929.8160, acc_train: nan, epoch time: 1.63s
+------------------------------
+------------------------------
+save best model at epoch : 34
+Epoch:   34, mse_train: 600100.5125, delta_train: 2070.4897, acc_train: nan, epoch time: 1.70s|| mse_val: 633784.2500, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 54.05s ||
+Epoch:   35, mse_train: 592124.0625, delta_train: 1894.8839, acc_train: nan, epoch time: 1.84s
+Epoch:   36, mse_train: 591772.5437, delta_train: 2000.5576, acc_train: nan, epoch time: 1.83s
+Epoch:   37, mse_train: 585023.1188, delta_train: 1942.4922, acc_train: nan, epoch time: 1.59s
+Epoch:   38, mse_train: 582374.2812, delta_train: 1798.9926, acc_train: nan, epoch time: 1.61s
+------------------------------
+------------------------------
+save best model at epoch : 39
+Epoch:   39, mse_train: 590046.3438, delta_train: 1834.3971, acc_train: nan, epoch time: 1.56s|| mse_val: 617608.1875, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 62.71s ||
+Epoch:   40, mse_train: 591575.3562, delta_train: 1955.6899, acc_train: nan, epoch time: 1.77s
+Epoch:   41, mse_train: 592104.4375, delta_train: 2021.0155, acc_train: nan, epoch time: 1.74s
+Epoch:   42, mse_train: 590894.9437, delta_train: 2189.4972, acc_train: nan, epoch time: 1.60s
+Epoch:   43, mse_train: 579906.0000, delta_train: 2211.2255, acc_train: nan, epoch time: 1.55s
+------------------------------
+------------------------------
+Epoch:   44, mse_train: 587830.6937, delta_train: 1689.8518, acc_train: nan, epoch time: 1.69s|| mse_val: 634636.4062, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 71.28s ||
+Epoch:   45, mse_train: 584398.1625, delta_train: 1810.4409, acc_train: nan, epoch time: 1.67s
+Epoch:   46, mse_train: 575451.1813, delta_train: 2159.3684, acc_train: nan, epoch time: 1.63s
+Epoch:   47, mse_train: 566685.8187, delta_train: 2080.8062, acc_train: nan, epoch time: 1.60s
+Epoch:   48, mse_train: 573517.2000, delta_train: 2175.1924, acc_train: nan, epoch time: 1.67s
+------------------------------
+------------------------------
+Epoch:   49, mse_train: 569829.2125, delta_train: 1966.8560, acc_train: nan, epoch time: 1.59s|| mse_val: 625345.5625, delta_val: nan, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 79.62s ||
+Optimization Finished!
+Best Epoch: 0039
+process data
+process data
+set model and train
+process data
+set model and train
+Epoch:    0, mse_train: 2865792.5250, delta_train: 787.2775, acc_train: nan, epoch time: 5.02s
+Epoch:    1, mse_train: 2303094.6500, delta_train: 1067.1542, acc_train: nan, epoch time: 3.95s
+Epoch:    2, mse_train: 2261762.9250, delta_train: 910.1838, acc_train: nan, epoch time: 3.80s
+Epoch:    3, mse_train: 2244350.5750, delta_train: 824.7279, acc_train: nan, epoch time: 4.00s
+------------------------------
+------------------------------
+save best model at epoch : 4
+Epoch:    4, mse_train: 2232535.6500, delta_train: 859.1846, acc_train: nan, epoch time: 4.19s|| mse_val: 2239031.7500, delta_val: 836.1333, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 21.38s ||
+Epoch:    5, mse_train: 2226710.2250, delta_train: 912.8071, acc_train: nan, epoch time: 4.13s
+Epoch:    6, mse_train: 2222587.9000, delta_train: 1050.5835, acc_train: nan, epoch time: 5.06s
+Epoch:    7, mse_train: 2220546.2500, delta_train: 835.8126, acc_train: nan, epoch time: 4.80s
+Epoch:    8, mse_train: 2211491.1000, delta_train: 842.4053, acc_train: nan, epoch time: 5.41s
+------------------------------
+------------------------------
+save best model at epoch : 9
+Epoch:    9, mse_train: 2210864.1000, delta_train: 944.5514, acc_train: nan, epoch time: 5.08s|| mse_val: 2229050.8750, delta_val: 1025.2215, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 46.39s ||
+Epoch:   10, mse_train: 2204431.9500, delta_train: 1064.8177, acc_train: nan, epoch time: 4.85s
+Epoch:   11, mse_train: 2209257.9500, delta_train: 850.9471, acc_train: nan, epoch time: 4.88s
+Epoch:   12, mse_train: 2197524.7250, delta_train: 773.8482, acc_train: nan, epoch time: 5.12s
+Epoch:   13, mse_train: 2195528.0750, delta_train: 870.1060, acc_train: nan, epoch time: 4.82s
+------------------------------
+------------------------------
+Epoch:   14, mse_train: 2192545.9000, delta_train: 754.2988, acc_train: nan, epoch time: 4.71s|| mse_val: 2230988.1250, delta_val: 808.9993, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 71.27s ||
+Epoch:   15, mse_train: 2193926.7500, delta_train: 840.3091, acc_train: nan, epoch time: 5.00s
+Epoch:   16, mse_train: 2191676.1500, delta_train: 769.2143, acc_train: nan, epoch time: 4.90s
+Epoch:   17, mse_train: 2191773.9000, delta_train: 795.1896, acc_train: nan, epoch time: 5.03s
+Epoch:   18, mse_train: 2185039.3250, delta_train: 858.9099, acc_train: nan, epoch time: 4.85s
+------------------------------
+------------------------------
+save best model at epoch : 19
+Epoch:   19, mse_train: 2177178.4000, delta_train: 819.2699, acc_train: nan, epoch time: 4.59s|| mse_val: 2221935.8750, delta_val: 705.9627, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 96.08s ||
+Epoch:   20, mse_train: 2176447.0750, delta_train: 763.5878, acc_train: nan, epoch time: 4.80s
+Epoch:   21, mse_train: 2184988.4750, delta_train: 1475.3668, acc_train: nan, epoch time: 4.64s
+Epoch:   22, mse_train: 2171360.3500, delta_train: 1185.8360, acc_train: nan, epoch time: 5.00s
+Epoch:   23, mse_train: 2165593.8000, delta_train: 852.7159, acc_train: nan, epoch time: 4.92s
+------------------------------
+------------------------------
+Epoch:   24, mse_train: 2157732.7250, delta_train: 793.6189, acc_train: nan, epoch time: 4.71s|| mse_val: 2225873.0000, delta_val: 1026.9380, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 120.65s ||
+Epoch:   25, mse_train: 2151451.3250, delta_train: 912.2356, acc_train: nan, epoch time: 4.98s
+Epoch:   26, mse_train: 2143446.6250, delta_train: 820.4015, acc_train: nan, epoch time: 5.08s
+Epoch:   27, mse_train: 2152317.3250, delta_train: 719.0055, acc_train: nan, epoch time: 4.79s
+Epoch:   28, mse_train: 2141204.4500, delta_train: 888.5653, acc_train: nan, epoch time: 4.73s
+------------------------------
+------------------------------
+save best model at epoch : 29
+Epoch:   29, mse_train: 2140751.8875, delta_train: 875.4464, acc_train: nan, epoch time: 4.69s|| mse_val: 2220735.7500, delta_val: 831.0963, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 145.41s ||
+Epoch:   30, mse_train: 2127557.6375, delta_train: 783.2818, acc_train: nan, epoch time: 4.81s
+Epoch:   31, mse_train: 2133765.0125, delta_train: 757.1939, acc_train: nan, epoch time: 4.60s
+Epoch:   32, mse_train: 2125180.3375, delta_train: 803.9139, acc_train: nan, epoch time: 5.82s
+Epoch:   33, mse_train: 2117083.1500, delta_train: 821.0756, acc_train: nan, epoch time: 8.55s
+------------------------------
+------------------------------
+Epoch:   34, mse_train: 2117198.5875, delta_train: 768.6341, acc_train: nan, epoch time: 8.01s|| mse_val: 2239215.3750, delta_val: 707.1609, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 177.79s ||
+Epoch:   35, mse_train: 2108370.5375, delta_train: 691.9366, acc_train: nan, epoch time: 6.49s
+Epoch:   36, mse_train: 2108091.1750, delta_train: 619.8980, acc_train: nan, epoch time: 5.50s
+Epoch:   37, mse_train: 2103653.6250, delta_train: 655.9143, acc_train: nan, epoch time: 5.46s
+Epoch:   38, mse_train: 2102329.8750, delta_train: 694.2610, acc_train: nan, epoch time: 5.46s
+------------------------------
+------------------------------
+Epoch:   39, mse_train: 2098618.3500, delta_train: 612.0487, acc_train: nan, epoch time: 5.79s|| mse_val: 2252233.2500, delta_val: 587.8580, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 207.04s ||
+Epoch:   40, mse_train: 2083774.6500, delta_train: 585.0114, acc_train: nan, epoch time: 7.73s
+Epoch:   41, mse_train: 2086359.6875, delta_train: 614.0555, acc_train: nan, epoch time: 6.29s
+Epoch:   42, mse_train: 2066025.7625, delta_train: 570.8598, acc_train: nan, epoch time: 5.74s
+Epoch:   43, mse_train: 2072854.9125, delta_train: 574.8586, acc_train: nan, epoch time: 5.71s
+------------------------------
+------------------------------
+Epoch:   44, mse_train: 2071668.1750, delta_train: 606.4667, acc_train: nan, epoch time: 5.82s|| mse_val: 2273978.0000, delta_val: 565.8193, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 238.92s ||
+Epoch:   45, mse_train: 2082519.5625, delta_train: 591.1885, acc_train: nan, epoch time: 5.99s
+Epoch:   46, mse_train: 2070295.6750, delta_train: 555.9691, acc_train: nan, epoch time: 7.13s
+Epoch:   47, mse_train: 2049675.0875, delta_train: 604.6246, acc_train: nan, epoch time: 5.68s
+Epoch:   48, mse_train: 2050367.6875, delta_train: 655.8797, acc_train: nan, epoch time: 6.55s
+------------------------------
+------------------------------
+Epoch:   49, mse_train: 2050522.1000, delta_train: 644.7539, acc_train: nan, epoch time: 6.37s|| mse_val: 2280668.1250, delta_val: 631.1956, acc_val: nan, roc: nan, dist: nan, tri: nan, total time: 271.20s ||
+Optimization Finished!
+Best Epoch: 0029

@@ -1,0 +1,1699 @@
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+
+ *******************************************
+exp/my_exp_rnn_gnn
+--------------------------------
+--------valid--loc-------------
+--------------------------------
+mse: 58656.5937500000, acc: 0.6000000000
+roc continuous: 0.6808510638297872, dist: 22.0, tri: 0.0
+
+future step 1, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 2, reconstruction quality (np.float64(0.8936170212765957), np.float64(14.0), np.float64(0.06666666666666665))
+future step 3, reconstruction quality (np.float64(0.6595744680851063), np.float64(27.0), np.float64(0.0))
+future step 4, reconstruction quality (np.float64(0.6170212765957447), np.float64(27.0), np.float64(0.0))
+future step 5, reconstruction quality (np.float64(0.5319148936170213), np.float64(27.0), np.float64(0.0))
+combined score: (np.float64(0.6808510638297872), np.float64(27.0), np.float64(0.0))
+accuracy: 1.0
+relation: & 0.6809 & 22.00 & 0.0000
+mse: & 0.5319 & 27.00 & 0.0000
+combine: & 0.6809 & 27.00 & 0.0000
+--------------------------------
+--------test--loc-------------
+--------------------------------
+mse: 2760.9711914062, acc: 0.5530000000
+roc continuous: 0.23404255319148937, dist: 27.0, tri: 0.0
+
+future step 1, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 2, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 3, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 4, reconstruction quality (np.float64(0.8936170212765957), np.float64(15.0), np.float64(0.0))
+future step 5, reconstruction quality (np.float64(0.8085106382978724), np.float64(15.0), np.float64(0.0))
+combined score: (np.float64(0.3829787234042553), np.float64(27.0), np.float64(0.0))
+accuracy: 0.0
+relation: & 0.2340 & 27.00 & 0.0000
+mse: & 0.8085 & 15.00 & 0.0000
+combine: & 0.3830 & 27.00 & 0.0000
+--------------------------------
+--------train--loc-------------
+--------------------------------
+mse: 797.7109375000, acc: 0.5832000000
+roc continuous: 0.44680851063829785, dist: 12.2, tri: 0.3733333333333334
+
+future step 1, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 2, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 3, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 4, reconstruction quality (np.float64(0.9923404255319149), np.float64(0.0), np.float64(1.0))
+future step 5, reconstruction quality (np.float64(0.9685106382978723), np.float64(7.0), np.float64(0.8))
+combined score: (np.float64(0.883404255319149), np.float64(8.0), np.float64(0.5733333333333335))
+accuracy: 0.0
+relation: & 0.4468 & 12.20 & 0.3733
+mse: & 0.9685 & 7.00 & 0.8000
+combine: & 0.8834 & 8.00 & 0.5733
+--------------------------------
+--------valid--vel-------------
+--------------------------------
+mse: 61310.5468750000, acc: 0.6000000000
+roc continuous: 0.7446808510638299, dist: 22.0, tri: 0.0
+
+future step 1, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 2, reconstruction quality (np.float64(0.9574468085106383), np.float64(25.0), np.float64(0.0))
+future step 3, reconstruction quality (np.float64(0.851063829787234), np.float64(25.0), np.float64(0.0))
+future step 4, reconstruction quality (np.float64(0.7446808510638299), np.float64(25.0), np.float64(0.0))
+future step 5, reconstruction quality (np.float64(0.6808510638297872), np.float64(25.0), np.float64(0.0))
+combined score: (np.float64(0.7659574468085106), np.float64(27.0), np.float64(0.0))
+accuracy: 1.0
+relation: & 0.7447 & 22.00 & 0.0000
+mse: & 0.6809 & 25.00 & 0.0000
+combine: & 0.7660 & 27.00 & 0.0000
+--------------------------------
+--------test--vel-------------
+--------------------------------
+mse: 2853.1591796875, acc: 0.5590000000
+roc continuous: 0.21276595744680848, dist: 26.0, tri: 0.0
+
+future step 1, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 2, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 3, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 4, reconstruction quality (np.float64(0.851063829787234), np.float64(15.0), np.float64(0.0))
+future step 5, reconstruction quality (np.float64(0.7872340425531915), np.float64(15.0), np.float64(0.0))
+combined score: (np.float64(0.3829787234042553), np.float64(27.0), np.float64(0.0))
+accuracy: 0.0
+relation: & 0.2128 & 26.00 & 0.0000
+mse: & 0.7872 & 15.00 & 0.0000
+combine: & 0.3830 & 27.00 & 0.0000
+--------------------------------
+--------train--vel-------------
+--------------------------------
+mse: 735.6394042969, acc: 0.5828000000
+roc continuous: 0.41191489361702127, dist: 13.2, tri: 0.32
+
+future step 1, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 2, reconstruction quality (np.float64(1.0), np.float64(0.0), np.float64(1.0))
+future step 3, reconstruction quality (np.float64(0.9761702127659574), np.float64(0.0), np.float64(1.0))
+future step 4, reconstruction quality (np.float64(0.8834042553191488), np.float64(4.6), np.float64(0.7066666666666667))
+future step 5, reconstruction quality (np.float64(0.7914893617021277), np.float64(6.2), np.float64(0.6))
+combined score: (np.float64(0.7370212765957447), np.float64(12.2), np.float64(0.29333333333333333))
+accuracy: 0.0
+relation: & 0.4119 & 13.20 & 0.3200
+mse: & 0.7915 & 6.20 & 0.6000
+combine: & 0.7370 & 12.20 & 0.2933
+--------------------------------
+--------valid--edge-------------
+--------------------------------
+mse: 12282.4638671875, acc: 0.3840000000
+roc continuous: 0.19148936170212771, dist: 8.0, tri: 0.4666666666666667
+
+future step 1, reconstruction quality (np.float64(0.5319148936170213), np.float64(1.0), np.float64(0.9333333333333333))
+future step 2, reconstruction quality (np.float64(0.6382978723404256), np.float64(1.0), np.float64(0.9333333333333333))
+future step 3, reconstruction quality (np.float64(0.7021276595744681), np.float64(1.0), np.float64(0.9333333333333333))
+future step 4, reconstruction quality (np.float64(0.7446808510638299), np.float64(1.0), np.float64(0.9333333333333333))
+future step 5, reconstruction quality (np.float64(0.7659574468085106), np.float64(1.0), np.float64(0.9333333333333333))
+combined score: (np.float64(0.6382978723404256), np.float64(8.0), np.float64(0.4666666666666667))
+accuracy: 1.0
+relation: & 0.1915 & 8.00 & 0.4667
+mse: & 0.7660 & 1.00 & 0.9333
+combine: & 0.6383 & 8.00 & 0.4667
+--------------------------------
+--------test--edge-------------
+--------------------------------
+mse: 3467.5029296875, acc: 0.5010000000
+roc continuous: 0.08510638297872342, dist: 7.0, tri: 0.5333333333333333
+
+future step 1, reconstruction quality (np.float64(0.5957446808510638), np.float64(8.0), np.float64(0.4666666666666667))
+future step 2, reconstruction quality (np.float64(0.5531914893617021), np.float64(6.0), np.float64(0.6))
+future step 3, reconstruction quality (np.float64(0.574468085106383), np.float64(5.0), np.float64(0.6666666666666667))
+future step 4, reconstruction quality (np.float64(0.5957446808510638), np.float64(4.0), np.float64(0.7333333333333334))
+future step 5, reconstruction quality (np.float64(0.6382978723404256), np.float64(3.0), np.float64(0.8))
+combined score: (np.float64(0.21276595744680848), np.float64(7.0), np.float64(0.5333333333333333))
+accuracy: 1.0
+relation: & 0.0851 & 7.00 & 0.5333
+mse: & 0.6383 & 3.00 & 0.8000
+combine: & 0.2128 & 7.00 & 0.5333
+--------------------------------
+--------train--edge-------------
+--------------------------------
+mse: 2019.2227783203, acc: 0.5776000000
+roc continuous: 0.7982978723404256, dist: 14.8, tri: 0.2533333333333333
+
+future step 1, reconstruction quality (np.float64(0.4953191489361702), np.float64(5.6), np.float64(0.7333333333333334))
+future step 2, reconstruction quality (np.float64(0.4272340425531915), np.float64(6.2), np.float64(0.6666666666666667))
+future step 3, reconstruction quality (np.float64(0.49021276595744684), np.float64(6.2), np.float64(0.6666666666666667))
+future step 4, reconstruction quality (np.float64(0.5140425531914894), np.float64(5.2), np.float64(0.7333333333333334))
+future step 5, reconstruction quality (np.float64(0.5327659574468084), np.float64(5.0), np.float64(0.7466666666666667))
+combined score: (np.float64(0.7302127659574469), np.float64(10.2), np.float64(0.4666666666666666))
+accuracy: 1.0
+relation: & 0.7983 & 14.80 & 0.2533
+mse: & 0.5328 & 5.00 & 0.7467
+combine: & 0.7302 & 10.20 & 0.4667
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2981689.5000000000, acc: nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2981689.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2981689.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2981689.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.015625
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2981689.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.015625
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2981689.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.015625
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 2896332.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.015384615384615385
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 2805808.9166666665, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.05389221556886228
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 3321623.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0625
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 3285802.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.03076923076923077
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 3137785.9166666665, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.023952095808383235
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 1281636.8281250000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 1239182.5750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 471107.3377976191, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 1281636.8281250000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 1239182.5750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 471107.3377976191, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 1281636.8281250000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 1239182.5750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 471107.3377976191, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2080220.8750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 1699377.5750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 848062.0982142857, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2080220.8750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 1699377.5750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 848062.0982142857, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 5677124.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 5677101.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 5677288.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 1184633.7500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 1186459.3750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 1185444.8750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 1184633.7500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 1186459.3750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 1185444.8750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 1184633.7500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 1186459.3750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 1185444.8750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_obv_data
+
+ *******************************************
+exp/my_exp_rnn_gnn_obv_data
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 613748.7187500000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 643243.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 606778.2125000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_obv_data
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2221212.1250000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 2261297.8750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 2136062.3750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2856435.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 2860343.7500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 2856670.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2631915.7857142859, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.9904761904761905
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 2634795.2142857141, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.9904761904761905
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 2644799.3214285714, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 79493096.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 79558192.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 79515472.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 3081327.8750000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 3077612.7500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.03333333333333333
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 3066093.4444444445, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.02857142857142857
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2976753.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 2984295.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 2981158.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 6467530.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 6466184.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 6485958.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 16568423.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 16564328.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 16559791.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 33314038.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 33348482.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 33352804.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 57315352.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 57233232.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 57224800.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 87766752.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 87907296.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 87959672.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 126845960.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 126402736.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 126441072.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 172044688.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 172045120.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 171611568.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 172044688.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 172045120.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 171611568.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 6467530.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 6466184.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 6485958.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 6467530.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 6466184.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 6485958.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 6467530.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 6466184.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 6485958.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 16568423.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 16564328.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 16559791.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 33314038.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 33348482.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 33352804.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2976753.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 2984295.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 2981158.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 172044688.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 172045120.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 171611568.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 33314038.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 33348482.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 33352804.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 225185408.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 4455788.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 4429968.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 4434505.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 3131614.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 3121867.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 3124358.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 6473920.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 6464490.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 6425986.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 71622256.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 71418712.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 71617920.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 3001621.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 2997054.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 2999676.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 23362198.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 23245616.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 23280410.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 58506488.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 58418144.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 58278976.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 4385072.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 4381315.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 4407629.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 3214626.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 3233141.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 3221110.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 22505958.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 22468956.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 22550148.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 5157177.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 5160759.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 5142647.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 3216857.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 3211063.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 3238635.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 2935793.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 2934952.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 2938966.7500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 3057897.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 3065067.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 3048686.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 3243295.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 3271777.7500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 3303017.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 5387447.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 5385575.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 5403276.5000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 6672406.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 6677310.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 6623347.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 3073916.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 3092858.2500000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 3058116.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+
+ *******************************************
+exp/my_exp_rnn_gnn_real_data_more_epochs
+--------------------------------
+--------valid--gdelt-------------
+--------------------------------
+mse: 4455788.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------test--gdelt-------------
+--------------------------------
+mse: 4429968.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 1.0
+relation: & nan & nan & nan
+--------------------------------
+--------train--gdelt-------------
+--------------------------------
+mse: 4434505.0000000000, acc: nan
+roc continuous: nan, dist: nan, tri: nan
+
+accuracy: 0.0
+relation: & nan & nan & nan

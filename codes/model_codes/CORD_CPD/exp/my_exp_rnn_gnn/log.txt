@@ -1,0 +1,361 @@
+process data
+set model and train
+process data
+set model and train
+process data
+set model and train
+Epoch:    0, mse_train: 339566.5508, delta_train: 7.3553, acc_train: 0.5012, epoch time: 689.16s
+Epoch:    1, mse_train: 122150.5111, delta_train: 7.5116, acc_train: 0.5051, epoch time: 483.19s
+process data
+set model and train
+process data
+set model and train
+Epoch:    0, mse_train: 574229.5625, delta_train: 0.6900, acc_train: 0.5020, epoch time: 1.63s
+Epoch:    1, mse_train: 1577107.3750, delta_train: 2.0326, acc_train: 0.4918, epoch time: 1.35s
+Epoch:    2, mse_train: 350039.1875, delta_train: 7.9794, acc_train: 0.5088, epoch time: 1.12s
+Epoch:    3, mse_train: 230097.0000, delta_train: 11.0175, acc_train: 0.5165, epoch time: 1.27s
+save best model at epoch : 4
+save acc model at epoch : 4
+Epoch:    4, mse_train: 218800.3906, delta_train: 12.7254, acc_train: 0.5128, epoch time: 1.06s|| mse_val: 478919.0000, delta_val: 5.1200, acc_val: 0.5206, roc: 0.7636, dist: 11.3333, tri: 0.5111, total time: 6.56s ||
+Epoch:    5, mse_train: 212912.7188, delta_train: 13.5838, acc_train: 0.5121, epoch time: 1.09s
+Epoch:    6, mse_train: 198633.1406, delta_train: 13.7389, acc_train: 0.5129, epoch time: 1.07s
+Epoch:    7, mse_train: 170659.6094, delta_train: 13.5626, acc_train: 0.5144, epoch time: 1.02s
+Epoch:    8, mse_train: 142151.7500, delta_train: 13.2790, acc_train: 0.5173, epoch time: 1.14s
+save acc model at epoch : 9
+Epoch:    9, mse_train: 128880.6406, delta_train: 13.0024, acc_train: 0.5211, epoch time: 1.03s|| mse_val: 554988.5000, delta_val: 8.8190, acc_val: 0.5356, roc: 0.7447, dist: 2.6667, tri: 0.8222, total time: 12.17s ||
+Epoch:   10, mse_train: 125833.6172, delta_train: 13.0212, acc_train: 0.5219, epoch time: 1.03s
+Epoch:   11, mse_train: 119255.6875, delta_train: 13.4719, acc_train: 0.5234, epoch time: 1.00s
+Epoch:   12, mse_train: 107365.1016, delta_train: 14.3164, acc_train: 0.5232, epoch time: 1.03s
+Epoch:   13, mse_train: 98955.3047, delta_train: 15.2344, acc_train: 0.5265, epoch time: 1.07s
+save acc model at epoch : 14
+Epoch:   14, mse_train: 94446.0859, delta_train: 16.0359, acc_train: 0.5313, epoch time: 1.08s|| mse_val: 492200.1875, delta_val: 11.4723, acc_val: 0.5694, roc: 0.7541, dist: 9.3333, tri: 0.5333, total time: 17.53s ||
+Epoch:   15, mse_train: 91394.8281, delta_train: 16.6112, acc_train: 0.5331, epoch time: 1.05s
+Epoch:   16, mse_train: 85938.6328, delta_train: 16.9712, acc_train: 0.5344, epoch time: 1.02s
+Epoch:   17, mse_train: 80386.8203, delta_train: 17.1830, acc_train: 0.5352, epoch time: 1.05s
+Epoch:   18, mse_train: 75856.6016, delta_train: 17.2652, acc_train: 0.5366, epoch time: 1.04s
+Epoch:   19, mse_train: 72975.9922, delta_train: 17.2295, acc_train: 0.5386, epoch time: 1.14s|| mse_val: 521714.0625, delta_val: 11.9818, acc_val: 0.5665, roc: 0.8440, dist: 1.6667, tri: 0.8889, total time: 22.99s ||
+Epoch:   20, mse_train: 70091.7656, delta_train: 17.0876, acc_train: 0.5406, epoch time: 1.05s
+Epoch:   21, mse_train: 68115.6016, delta_train: 16.8391, acc_train: 0.5417, epoch time: 1.04s
+Epoch:   22, mse_train: 65346.3867, delta_train: 16.5484, acc_train: 0.5449, epoch time: 1.03s
+Epoch:   23, mse_train: 62338.3125, delta_train: 16.2993, acc_train: 0.5479, epoch time: 1.07s
+save best model at epoch : 24
+Epoch:   24, mse_train: 59401.5430, delta_train: 16.0773, acc_train: 0.5509, epoch time: 1.13s|| mse_val: 468754.5312, delta_val: 11.4854, acc_val: 0.5533, roc: 0.7683, dist: 11.0000, tri: 0.5333, total time: 28.47s ||
+Epoch:   25, mse_train: 57370.6797, delta_train: 15.8684, acc_train: 0.5533, epoch time: 1.09s
+Epoch:   26, mse_train: 55409.4531, delta_train: 15.7102, acc_train: 0.5553, epoch time: 1.13s
+Epoch:   27, mse_train: 53236.6406, delta_train: 15.6244, acc_train: 0.5562, epoch time: 1.08s
+Epoch:   28, mse_train: 51389.2695, delta_train: 15.5625, acc_train: 0.5564, epoch time: 1.09s
+save best model at epoch : 29
+Epoch:   29, mse_train: 50470.1641, delta_train: 15.5572, acc_train: 0.5564, epoch time: 1.33s|| mse_val: 462737.8750, delta_val: 11.2189, acc_val: 0.5507, roc: 0.7730, dist: 2.0000, tri: 0.8667, total time: 34.44s ||
+Epoch:   30, mse_train: 48609.1445, delta_train: 15.5856, acc_train: 0.5562, epoch time: 1.33s
+Epoch:   31, mse_train: 46823.3555, delta_train: 15.5611, acc_train: 0.5543, epoch time: 1.29s
+Epoch:   32, mse_train: 45196.1133, delta_train: 15.5163, acc_train: 0.5529, epoch time: 1.31s
+Epoch:   33, mse_train: 43695.0781, delta_train: 15.4210, acc_train: 0.5515, epoch time: 1.36s
+save best model at epoch : 34
+Epoch:   34, mse_train: 42443.6719, delta_train: 15.2838, acc_train: 0.5511, epoch time: 1.45s|| mse_val: 450251.1250, delta_val: 10.3302, acc_val: 0.5457, roc: 0.6738, dist: 17.6667, tri: 0.1333, total time: 41.39s ||
+Epoch:   35, mse_train: 41138.6250, delta_train: 15.1089, acc_train: 0.5512, epoch time: 1.30s
+Epoch:   36, mse_train: 40044.0078, delta_train: 14.9074, acc_train: 0.5520, epoch time: 1.31s
+Epoch:   37, mse_train: 38878.2930, delta_train: 14.6724, acc_train: 0.5536, epoch time: 1.30s
+Epoch:   38, mse_train: 37777.2734, delta_train: 14.4705, acc_train: 0.5549, epoch time: 1.57s
+save best model at epoch : 39
+Epoch:   39, mse_train: 36506.9531, delta_train: 14.3695, acc_train: 0.5560, epoch time: 1.30s|| mse_val: 433699.4688, delta_val: 9.2522, acc_val: 0.5417, roc: 0.6170, dist: 17.6667, tri: 0.1333, total time: 48.39s ||
+Epoch:   40, mse_train: 35376.4805, delta_train: 14.2764, acc_train: 0.5566, epoch time: 1.28s
+Epoch:   41, mse_train: 34269.9102, delta_train: 14.2782, acc_train: 0.5572, epoch time: 1.35s
+Epoch:   42, mse_train: 33006.2148, delta_train: 14.2751, acc_train: 0.5590, epoch time: 1.48s
+Epoch:   43, mse_train: 32063.0703, delta_train: 14.2792, acc_train: 0.5601, epoch time: 1.33s
+save best model at epoch : 44
+Epoch:   44, mse_train: 30924.1582, delta_train: 14.2731, acc_train: 0.5606, epoch time: 1.34s|| mse_val: 427195.1562, delta_val: 8.9032, acc_val: 0.5463, roc: 0.6312, dist: 21.6667, tri: 0.0889, total time: 55.37s ||
+Epoch:   45, mse_train: 30177.0391, delta_train: 14.2134, acc_train: 0.5618, epoch time: 1.31s
+Epoch:   46, mse_train: 29220.4434, delta_train: 14.1281, acc_train: 0.5622, epoch time: 1.34s
+Epoch:   47, mse_train: 28379.7617, delta_train: 13.9307, acc_train: 0.5628, epoch time: 1.35s
+Epoch:   48, mse_train: 27377.2188, delta_train: 13.7976, acc_train: 0.5633, epoch time: 1.28s
+save best model at epoch : 49
+Epoch:   49, mse_train: 26444.5703, delta_train: 13.6595, acc_train: 0.5637, epoch time: 1.30s|| mse_val: 410458.5938, delta_val: 8.3550, acc_val: 0.5430, roc: 0.6336, dist: 18.3333, tri: 0.0889, total time: 62.17s ||
+Epoch:   50, mse_train: 25764.5742, delta_train: 13.5021, acc_train: 0.5650, epoch time: 1.30s
+Epoch:   51, mse_train: 24859.1055, delta_train: 13.3216, acc_train: 0.5662, epoch time: 1.40s
+Epoch:   52, mse_train: 24327.9199, delta_train: 13.1052, acc_train: 0.5684, epoch time: 1.24s
+Epoch:   53, mse_train: 23572.6816, delta_train: 12.9796, acc_train: 0.5699, epoch time: 1.29s
+Epoch:   54, mse_train: 22928.4297, delta_train: 12.8420, acc_train: 0.5711, epoch time: 1.26s|| mse_val: 410838.7812, delta_val: 7.9152, acc_val: 0.5428, roc: 0.6738, dist: 21.6667, tri: 0.0889, total time: 68.90s ||
+Epoch:   55, mse_train: 22016.5254, delta_train: 12.7450, acc_train: 0.5719, epoch time: 1.40s
+Epoch:   56, mse_train: 21316.0371, delta_train: 12.5723, acc_train: 0.5728, epoch time: 1.31s
+Epoch:   57, mse_train: 20689.1426, delta_train: 12.2899, acc_train: 0.5747, epoch time: 1.28s
+Epoch:   58, mse_train: 20079.4180, delta_train: 12.0154, acc_train: 0.5764, epoch time: 1.26s
+Epoch:   59, mse_train: 19378.8965, delta_train: 11.8078, acc_train: 0.5788, epoch time: 1.31s|| mse_val: 413774.4688, delta_val: 7.4528, acc_val: 0.5420, roc: 0.6619, dist: 18.3333, tri: 0.0889, total time: 75.64s ||
+Epoch:   60, mse_train: 18827.2988, delta_train: 11.7031, acc_train: 0.5804, epoch time: 1.38s
+Epoch:   61, mse_train: 18177.3535, delta_train: 11.6264, acc_train: 0.5821, epoch time: 1.27s
+Epoch:   62, mse_train: 17681.8008, delta_train: 11.6143, acc_train: 0.5836, epoch time: 1.29s
+Epoch:   63, mse_train: 17332.1523, delta_train: 11.6272, acc_train: 0.5841, epoch time: 1.28s
+Epoch:   64, mse_train: 16691.9297, delta_train: 11.5880, acc_train: 0.5851, epoch time: 1.42s|| mse_val: 421734.3750, delta_val: 7.5427, acc_val: 0.5446, roc: 0.6714, dist: 18.3333, tri: 0.0889, total time: 82.45s ||
+Epoch:   65, mse_train: 16237.9512, delta_train: 11.5077, acc_train: 0.5873, epoch time: 1.23s
+Epoch:   66, mse_train: 15679.8906, delta_train: 11.5464, acc_train: 0.5883, epoch time: 1.27s
+Epoch:   67, mse_train: 15225.0020, delta_train: 11.6727, acc_train: 0.5881, epoch time: 1.26s
+Epoch:   68, mse_train: 14657.0605, delta_train: 11.8459, acc_train: 0.5877, epoch time: 1.40s
+Epoch:   69, mse_train: 14426.5811, delta_train: 11.9004, acc_train: 0.5896, epoch time: 1.34s|| mse_val: 433907.5312, delta_val: 7.8642, acc_val: 0.5415, roc: 0.6927, dist: 21.3333, tri: 0.1111, total time: 89.10s ||
+Epoch:   70, mse_train: 14011.2061, delta_train: 11.8387, acc_train: 0.5912, epoch time: 1.28s
+Epoch:   71, mse_train: 13932.6816, delta_train: 11.8342, acc_train: 0.5918, epoch time: 1.28s
+Epoch:   72, mse_train: 14287.4316, delta_train: 11.9564, acc_train: 0.5912, epoch time: 1.30s
+Epoch:   73, mse_train: 15096.8770, delta_train: 12.0034, acc_train: 0.5914, epoch time: 1.42s
+Epoch:   74, mse_train: 13321.2236, delta_train: 12.1154, acc_train: 0.5906, epoch time: 1.39s|| mse_val: 435977.9375, delta_val: 8.0184, acc_val: 0.5428, roc: 0.5272, dist: 19.3333, tri: 0.2444, total time: 95.93s ||
+Epoch:   75, mse_train: 11926.0391, delta_train: 12.0700, acc_train: 0.5917, epoch time: 1.32s
+Epoch:   76, mse_train: 12291.9248, delta_train: 12.1477, acc_train: 0.5918, epoch time: 1.33s
+Epoch:   77, mse_train: 12595.5654, delta_train: 12.3962, acc_train: 0.5890, epoch time: 1.40s
+Epoch:   78, mse_train: 11317.3145, delta_train: 12.2268, acc_train: 0.5912, epoch time: 1.29s
+Epoch:   79, mse_train: 10807.8799, delta_train: 12.1331, acc_train: 0.5933, epoch time: 1.26s|| mse_val: 444438.2812, delta_val: 8.1830, acc_val: 0.5413, roc: 0.4775, dist: 20.3333, tri: 0.1111, total time: 102.72s ||
+Epoch:   80, mse_train: 11334.2998, delta_train: 12.2516, acc_train: 0.5927, epoch time: 1.26s
+Epoch:   81, mse_train: 10744.4414, delta_train: 12.3388, acc_train: 0.5934, epoch time: 1.38s
+Epoch:   82, mse_train: 10109.1289, delta_train: 12.3650, acc_train: 0.5930, epoch time: 1.37s
+Epoch:   83, mse_train: 10017.2744, delta_train: 12.1363, acc_train: 0.5960, epoch time: 1.30s
+Epoch:   84, mse_train: 9922.6855, delta_train: 11.9610, acc_train: 0.5977, epoch time: 1.35s|| mse_val: 443731.5938, delta_val: 8.0917, acc_val: 0.5415, roc: 0.4823, dist: 9.3333, tri: 0.5556, total time: 109.56s ||
+Epoch:   85, mse_train: 9234.3086, delta_train: 12.2354, acc_train: 0.5960, epoch time: 1.40s
+Epoch:   86, mse_train: 9372.3262, delta_train: 12.3468, acc_train: 0.5941, epoch time: 1.10s
+Epoch:   87, mse_train: 9292.1084, delta_train: 12.0810, acc_train: 0.5969, epoch time: 1.08s
+Epoch:   88, mse_train: 8971.2344, delta_train: 11.9942, acc_train: 0.5977, epoch time: 1.31s
+Epoch:   89, mse_train: 8418.4238, delta_train: 12.0706, acc_train: 0.5970, epoch time: 1.29s|| mse_val: 454660.2188, delta_val: 8.2764, acc_val: 0.5341, roc: 0.5816, dist: 2.0000, tri: 0.8667, total time: 118.02s ||
+Epoch:   90, mse_train: 8284.0498, delta_train: 12.1584, acc_train: 0.5967, epoch time: 1.48s
+Epoch:   91, mse_train: 8211.5176, delta_train: 12.1004, acc_train: 0.5980, epoch time: 1.33s
+Epoch:   92, mse_train: 7870.3574, delta_train: 12.0532, acc_train: 0.5987, epoch time: 1.59s
+Epoch:   93, mse_train: 7409.2227, delta_train: 12.0367, acc_train: 0.6003, epoch time: 2.09s
+Epoch:   94, mse_train: 7438.8643, delta_train: 12.0673, acc_train: 0.5997, epoch time: 2.41s|| mse_val: 452054.8750, delta_val: 8.3904, acc_val: 0.5367, roc: 0.5579, dist: 2.0000, tri: 0.8667, total time: 127.17s ||
+Epoch:   95, mse_train: 7333.7319, delta_train: 12.1837, acc_train: 0.5986, epoch time: 1.62s
+Epoch:   96, mse_train: 7108.1694, delta_train: 12.2864, acc_train: 0.5979, epoch time: 1.59s
+Epoch:   97, mse_train: 6881.9121, delta_train: 12.1038, acc_train: 0.6000, epoch time: 1.70s
+Epoch:   98, mse_train: 6667.6543, delta_train: 12.2222, acc_train: 0.6000, epoch time: 1.48s
+Epoch:   99, mse_train: 6635.3296, delta_train: 12.3823, acc_train: 0.5982, epoch time: 1.56s|| mse_val: 454311.5625, delta_val: 8.5394, acc_val: 0.5378, roc: 0.5579, dist: 1.6667, tri: 0.8889, total time: 135.33s ||
+Epoch:  100, mse_train: 6367.5269, delta_train: 12.3003, acc_train: 0.6004, epoch time: 1.56s
+Epoch:  101, mse_train: 6348.3428, delta_train: 12.1558, acc_train: 0.6030, epoch time: 1.57s
+Epoch:  102, mse_train: 6211.2983, delta_train: 12.0845, acc_train: 0.6034, epoch time: 1.63s
+Epoch:  103, mse_train: 6145.3867, delta_train: 12.1275, acc_train: 0.6017, epoch time: 1.81s
+Epoch:  104, mse_train: 5981.6416, delta_train: 12.0274, acc_train: 0.6026, epoch time: 1.92s|| mse_val: 451382.9062, delta_val: 8.2895, acc_val: 0.5356, roc: 0.5626, dist: 1.6667, tri: 0.8889, total time: 144.13s ||
+Epoch:  105, mse_train: 5747.6460, delta_train: 11.9395, acc_train: 0.6027, epoch time: 2.23s
+Epoch:  106, mse_train: 5505.3735, delta_train: 11.9170, acc_train: 0.6030, epoch time: 1.51s
+Epoch:  107, mse_train: 5460.0957, delta_train: 12.1976, acc_train: 0.6006, epoch time: 1.54s
+Epoch:  108, mse_train: 5350.8247, delta_train: 12.2362, acc_train: 0.6012, epoch time: 1.65s
+Epoch:  109, mse_train: 5232.1821, delta_train: 12.0396, acc_train: 0.6034, epoch time: 1.58s|| mse_val: 466810.3438, delta_val: 8.2244, acc_val: 0.5404, roc: 0.5225, dist: 1.6667, tri: 0.8889, total time: 152.86s ||
+Epoch:  110, mse_train: 5228.4868, delta_train: 11.8753, acc_train: 0.6041, epoch time: 1.52s
+Epoch:  111, mse_train: 5475.5938, delta_train: 12.3908, acc_train: 0.5993, epoch time: 1.54s
+Epoch:  112, mse_train: 5504.0693, delta_train: 12.2567, acc_train: 0.6026, epoch time: 1.52s
+Epoch:  113, mse_train: 5982.4600, delta_train: 12.0850, acc_train: 0.6042, epoch time: 1.48s
+Epoch:  114, mse_train: 6223.9492, delta_train: 12.0470, acc_train: 0.6042, epoch time: 1.49s|| mse_val: 436141.2188, delta_val: 8.6612, acc_val: 0.5567, roc: 0.4563, dist: 19.6667, tri: 0.2222, total time: 160.61s ||
+Epoch:  115, mse_train: 6266.5967, delta_train: 12.5507, acc_train: 0.5976, epoch time: 1.48s
+Epoch:  116, mse_train: 4826.7788, delta_train: 12.1819, acc_train: 0.6037, epoch time: 1.51s
+Epoch:  117, mse_train: 4835.3135, delta_train: 11.7636, acc_train: 0.6054, epoch time: 1.49s
+Epoch:  118, mse_train: 4478.5195, delta_train: 12.4765, acc_train: 0.6007, epoch time: 1.54s
+Epoch:  119, mse_train: 5556.2227, delta_train: 12.9438, acc_train: 0.5959, epoch time: 1.49s|| mse_val: 436285.7812, delta_val: 8.6861, acc_val: 0.5485, roc: 0.3924, dist: 18.6667, tri: 0.2222, total time: 168.31s ||
+Epoch:  120, mse_train: 4196.0493, delta_train: 12.3188, acc_train: 0.6026, epoch time: 1.50s
+Epoch:  121, mse_train: 4330.8765, delta_train: 11.9492, acc_train: 0.6043, epoch time: 1.63s
+Epoch:  122, mse_train: 4023.1743, delta_train: 12.2977, acc_train: 0.6030, epoch time: 1.57s
+Epoch:  123, mse_train: 4571.6577, delta_train: 12.6354, acc_train: 0.6001, epoch time: 1.55s
+Epoch:  124, mse_train: 4132.4819, delta_train: 12.2043, acc_train: 0.6044, epoch time: 1.52s|| mse_val: 452856.4375, delta_val: 8.5272, acc_val: 0.5415, roc: 0.6454, dist: 18.0000, tri: 0.2000, total time: 176.28s ||
+Epoch:  125, mse_train: 4078.7461, delta_train: 11.7317, acc_train: 0.6071, epoch time: 1.51s
+Epoch:  126, mse_train: 3690.5925, delta_train: 11.8507, acc_train: 0.6067, epoch time: 1.49s
+Epoch:  127, mse_train: 3721.9414, delta_train: 12.2096, acc_train: 0.6040, epoch time: 1.51s
+Epoch:  128, mse_train: 3895.7505, delta_train: 12.4900, acc_train: 0.6011, epoch time: 1.51s
+Epoch:  129, mse_train: 3602.2949, delta_train: 12.2272, acc_train: 0.6061, epoch time: 1.51s|| mse_val: 453316.2500, delta_val: 8.8385, acc_val: 0.5431, roc: 0.5343, dist: 17.0000, tri: 0.2222, total time: 183.97s ||
+Epoch:  130, mse_train: 3651.1785, delta_train: 12.0960, acc_train: 0.6065, epoch time: 1.48s
+Epoch:  131, mse_train: 3457.1118, delta_train: 12.5021, acc_train: 0.6038, epoch time: 1.52s
+Epoch:  132, mse_train: 3417.2148, delta_train: 12.6108, acc_train: 0.6013, epoch time: 1.53s
+Epoch:  133, mse_train: 3293.3838, delta_train: 12.2127, acc_train: 0.6048, epoch time: 1.46s
+Epoch:  134, mse_train: 3383.6699, delta_train: 11.9062, acc_train: 0.6060, epoch time: 1.50s|| mse_val: 440432.2812, delta_val: 8.7549, acc_val: 0.5504, roc: 0.5106, dist: 19.6667, tri: 0.2222, total time: 191.64s ||
+Epoch:  135, mse_train: 3187.9373, delta_train: 11.9259, acc_train: 0.6060, epoch time: 1.46s
+Epoch:  136, mse_train: 3064.1987, delta_train: 12.0926, acc_train: 0.6051, epoch time: 1.48s
+Epoch:  137, mse_train: 3017.9822, delta_train: 12.2163, acc_train: 0.6041, epoch time: 1.49s
+Epoch:  138, mse_train: 2873.9226, delta_train: 12.1041, acc_train: 0.6050, epoch time: 1.47s
+Epoch:  139, mse_train: 2924.8005, delta_train: 11.9711, acc_train: 0.6057, epoch time: 1.51s|| mse_val: 442260.2500, delta_val: 8.9613, acc_val: 0.5519, roc: 0.4870, dist: 19.6667, tri: 0.2222, total time: 199.24s ||
+Epoch:  140, mse_train: 2880.5188, delta_train: 12.1785, acc_train: 0.6048, epoch time: 1.48s
+Epoch:  141, mse_train: 2997.0034, delta_train: 12.4978, acc_train: 0.6029, epoch time: 1.47s
+Epoch:  142, mse_train: 2783.2842, delta_train: 12.4459, acc_train: 0.6040, epoch time: 1.48s
+Epoch:  143, mse_train: 2806.9165, delta_train: 12.1994, acc_train: 0.6055, epoch time: 1.50s
+Epoch:  144, mse_train: 2613.5703, delta_train: 12.2114, acc_train: 0.6054, epoch time: 1.52s|| mse_val: 452550.9688, delta_val: 8.7819, acc_val: 0.5524, roc: 0.5012, dist: 19.0000, tri: 0.2222, total time: 206.89s ||
+Epoch:  145, mse_train: 2754.6907, delta_train: 12.0779, acc_train: 0.6061, epoch time: 1.52s
+Epoch:  146, mse_train: 2785.5967, delta_train: 12.2233, acc_train: 0.6043, epoch time: 1.60s
+Epoch:  147, mse_train: 2946.6602, delta_train: 12.2592, acc_train: 0.6052, epoch time: 1.54s
+Epoch:  148, mse_train: 3571.1086, delta_train: 12.3115, acc_train: 0.6050, epoch time: 1.50s
+Epoch:  149, mse_train: 4802.1235, delta_train: 12.3045, acc_train: 0.6048, epoch time: 1.50s|| mse_val: 431122.4688, delta_val: 9.1655, acc_val: 0.5570, roc: 0.4681, dist: 19.6667, tri: 0.2222, total time: 214.77s ||
+Epoch:  150, mse_train: 6029.4126, delta_train: 12.5326, acc_train: 0.6027, epoch time: 1.59s
+Epoch:  151, mse_train: 6625.7788, delta_train: 12.5276, acc_train: 0.6023, epoch time: 1.60s
+Epoch:  152, mse_train: 4249.8027, delta_train: 12.4133, acc_train: 0.6034, epoch time: 1.53s
+Epoch:  153, mse_train: 2377.7053, delta_train: 12.2642, acc_train: 0.6043, epoch time: 1.52s
+Epoch:  154, mse_train: 3561.9929, delta_train: 12.2742, acc_train: 0.6049, epoch time: 1.52s|| mse_val: 433315.2500, delta_val: 9.1678, acc_val: 0.5526, roc: 0.4917, dist: 19.6667, tri: 0.2222, total time: 222.75s ||
+Epoch:  155, mse_train: 4797.0010, delta_train: 12.5584, acc_train: 0.6017, epoch time: 1.54s
+Epoch:  156, mse_train: 3532.6733, delta_train: 12.6656, acc_train: 0.6018, epoch time: 1.56s
+Epoch:  157, mse_train: 2444.5142, delta_train: 12.7360, acc_train: 0.6023, epoch time: 1.55s
+Epoch:  158, mse_train: 3840.5303, delta_train: 12.5429, acc_train: 0.6034, epoch time: 1.54s
+Epoch:  159, mse_train: 3734.4463, delta_train: 12.2325, acc_train: 0.6059, epoch time: 1.53s|| mse_val: 444022.1250, delta_val: 8.7929, acc_val: 0.5487, roc: 0.5674, dist: 18.0000, tri: 0.2444, total time: 230.67s ||
+Epoch:  160, mse_train: 2377.2554, delta_train: 12.3024, acc_train: 0.6041, epoch time: 1.65s
+Epoch:  161, mse_train: 3179.4636, delta_train: 12.4319, acc_train: 0.6028, epoch time: 1.59s
+Epoch:  162, mse_train: 3591.5996, delta_train: 12.7114, acc_train: 0.6014, epoch time: 1.56s
+Epoch:  163, mse_train: 2437.2119, delta_train: 12.9222, acc_train: 0.6002, epoch time: 1.52s
+Epoch:  164, mse_train: 2665.2480, delta_train: 12.6524, acc_train: 0.6032, epoch time: 1.55s|| mse_val: 457088.7188, delta_val: 8.7892, acc_val: 0.5472, roc: 0.5721, dist: 17.3333, tri: 0.2444, total time: 238.78s ||
+Epoch:  165, mse_train: 3109.4146, delta_train: 12.3381, acc_train: 0.6051, epoch time: 1.51s
+Epoch:  166, mse_train: 2127.3826, delta_train: 12.3292, acc_train: 0.6049, epoch time: 1.55s
+Epoch:  167, mse_train: 2487.2361, delta_train: 12.4923, acc_train: 0.6034, epoch time: 1.55s
+Epoch:  168, mse_train: 2849.5295, delta_train: 12.6729, acc_train: 0.6020, epoch time: 1.52s
+Epoch:  169, mse_train: 2101.4609, delta_train: 12.5217, acc_train: 0.6049, epoch time: 1.54s|| mse_val: 439983.6875, delta_val: 8.8759, acc_val: 0.5483, roc: 0.5626, dist: 17.3333, tri: 0.2444, total time: 246.63s ||
+Epoch:  170, mse_train: 2483.5942, delta_train: 12.4081, acc_train: 0.6060, epoch time: 1.51s
+Epoch:  171, mse_train: 2703.4717, delta_train: 12.4698, acc_train: 0.6062, epoch time: 1.53s
+Epoch:  172, mse_train: 1991.0916, delta_train: 12.6878, acc_train: 0.6048, epoch time: 1.53s
+Epoch:  173, mse_train: 2335.3511, delta_train: 12.8313, acc_train: 0.6036, epoch time: 1.52s
+Epoch:  174, mse_train: 2708.2490, delta_train: 12.5970, acc_train: 0.6052, epoch time: 1.50s|| mse_val: 429505.2188, delta_val: 9.0246, acc_val: 0.5519, roc: 0.5272, dist: 19.3333, tri: 0.2444, total time: 254.45s ||
+Epoch:  175, mse_train: 2093.8022, delta_train: 12.4757, acc_train: 0.6054, epoch time: 1.56s
+Epoch:  176, mse_train: 2083.6628, delta_train: 12.4079, acc_train: 0.6060, epoch time: 1.54s
+Epoch:  177, mse_train: 2290.8679, delta_train: 12.5689, acc_train: 0.6050, epoch time: 1.53s
+Epoch:  178, mse_train: 1980.0188, delta_train: 12.7468, acc_train: 0.6043, epoch time: 1.55s
+Epoch:  179, mse_train: 1850.7277, delta_train: 12.5385, acc_train: 0.6067, epoch time: 1.52s|| mse_val: 453998.2500, delta_val: 8.9811, acc_val: 0.5448, roc: 0.6430, dist: 15.6667, tri: 0.2444, total time: 262.32s ||
+Epoch:  180, mse_train: 2224.2478, delta_train: 12.3584, acc_train: 0.6076, epoch time: 1.53s
+Epoch:  181, mse_train: 1985.3228, delta_train: 12.3586, acc_train: 0.6076, epoch time: 1.52s
+Epoch:  182, mse_train: 1749.0638, delta_train: 12.6226, acc_train: 0.6044, epoch time: 1.53s
+Epoch:  183, mse_train: 1924.9771, delta_train: 12.5688, acc_train: 0.6048, epoch time: 1.53s
+Epoch:  184, mse_train: 1857.6653, delta_train: 12.4069, acc_train: 0.6051, epoch time: 1.52s|| mse_val: 437561.9062, delta_val: 8.9159, acc_val: 0.5519, roc: 0.5390, dist: 18.0000, tri: 0.2444, total time: 270.15s ||
+Epoch:  185, mse_train: 1706.4142, delta_train: 12.4148, acc_train: 0.6056, epoch time: 1.53s
+Epoch:  186, mse_train: 1794.7255, delta_train: 12.5259, acc_train: 0.6041, epoch time: 1.53s
+Epoch:  187, mse_train: 1857.8811, delta_train: 12.6003, acc_train: 0.6041, epoch time: 1.51s
+Epoch:  188, mse_train: 1585.9221, delta_train: 12.5141, acc_train: 0.6062, epoch time: 1.51s
+Epoch:  189, mse_train: 1625.3210, delta_train: 12.5206, acc_train: 0.6061, epoch time: 1.55s|| mse_val: 430890.5312, delta_val: 9.1013, acc_val: 0.5524, roc: 0.5177, dist: 18.6667, tri: 0.2444, total time: 277.95s ||
+Epoch:  190, mse_train: 1676.2776, delta_train: 12.6618, acc_train: 0.6055, epoch time: 1.54s
+Epoch:  191, mse_train: 1676.4896, delta_train: 12.8381, acc_train: 0.6041, epoch time: 1.52s
+Epoch:  192, mse_train: 1533.0481, delta_train: 12.7113, acc_train: 0.6050, epoch time: 1.56s
+Epoch:  193, mse_train: 1675.5496, delta_train: 12.4786, acc_train: 0.6066, epoch time: 1.52s
+Epoch:  194, mse_train: 1700.1689, delta_train: 12.5084, acc_train: 0.6057, epoch time: 1.52s|| mse_val: 437151.9062, delta_val: 9.2600, acc_val: 0.5556, roc: 0.4823, dist: 19.3333, tri: 0.2444, total time: 285.81s ||
+Epoch:  195, mse_train: 1511.0150, delta_train: 12.7829, acc_train: 0.6037, epoch time: 1.53s
+Epoch:  196, mse_train: 1602.6346, delta_train: 12.9544, acc_train: 0.6023, epoch time: 1.55s
+Epoch:  197, mse_train: 1608.4139, delta_train: 12.7442, acc_train: 0.6038, epoch time: 1.57s
+Epoch:  198, mse_train: 1609.6392, delta_train: 12.5586, acc_train: 0.6054, epoch time: 1.55s
+Epoch:  199, mse_train: 1513.9646, delta_train: 12.6492, acc_train: 0.6064, epoch time: 1.63s|| mse_val: 435229.0938, delta_val: 9.3052, acc_val: 0.5539, roc: 0.5012, dist: 19.3333, tri: 0.2444, total time: 293.85s ||
+Epoch:  200, mse_train: 1557.0804, delta_train: 12.8062, acc_train: 0.6054, epoch time: 1.53s
+Epoch:  201, mse_train: 1386.2158, delta_train: 12.8615, acc_train: 0.6050, epoch time: 1.55s
+Epoch:  202, mse_train: 1502.2780, delta_train: 12.8649, acc_train: 0.6060, epoch time: 1.53s
+Epoch:  203, mse_train: 1383.4120, delta_train: 12.8559, acc_train: 0.6058, epoch time: 1.57s
+Epoch:  204, mse_train: 1470.9086, delta_train: 12.8474, acc_train: 0.6056, epoch time: 1.74s|| mse_val: 433407.3125, delta_val: 9.3275, acc_val: 0.5531, roc: 0.5059, dist: 18.6667, tri: 0.2444, total time: 302.03s ||
+Epoch:  205, mse_train: 1328.8154, delta_train: 12.8226, acc_train: 0.6057, epoch time: 1.61s
+Epoch:  206, mse_train: 1421.4462, delta_train: 12.7578, acc_train: 0.6057, epoch time: 1.57s
+Epoch:  207, mse_train: 1354.5073, delta_train: 12.6489, acc_train: 0.6057, epoch time: 1.57s
+Epoch:  208, mse_train: 1461.8799, delta_train: 12.5824, acc_train: 0.6064, epoch time: 1.66s
+process data
+set model and train
+Epoch:    0, mse_train: 574229.5625, delta_train: 0.6900, acc_train: 0.5020, epoch time: 1.45s
+Epoch:    1, mse_train: 1577107.3750, delta_train: 2.0326, acc_train: 0.4918, epoch time: 1.14s
+Epoch:    2, mse_train: 350039.1875, delta_train: 7.9794, acc_train: 0.5088, epoch time: 1.01s
+Epoch:    3, mse_train: 230097.0000, delta_train: 11.0175, acc_train: 0.5165, epoch time: 1.07s
+save best model at epoch : 4
+save acc model at epoch : 4
+Epoch:    4, mse_train: 218800.3906, delta_train: 12.7254, acc_train: 0.5128, epoch time: 1.06s|| mse_val: 478919.0000, delta_val: 5.1200, acc_val: 0.5206, roc: 0.7636, dist: 11.3333, tri: 0.5111, total time: 5.87s ||
+Epoch:    5, mse_train: 212912.7188, delta_train: 13.5838, acc_train: 0.5121, epoch time: 1.00s
+Epoch:    6, mse_train: 198633.1406, delta_train: 13.7389, acc_train: 0.5129, epoch time: 0.98s
+Epoch:    7, mse_train: 170659.6094, delta_train: 13.5626, acc_train: 0.5144, epoch time: 1.00s
+Epoch:    8, mse_train: 142151.7500, delta_train: 13.2790, acc_train: 0.5173, epoch time: 1.03s
+save acc model at epoch : 9
+Epoch:    9, mse_train: 128880.6406, delta_train: 13.0024, acc_train: 0.5211, epoch time: 1.19s|| mse_val: 554988.5000, delta_val: 8.8190, acc_val: 0.5356, roc: 0.7447, dist: 2.6667, tri: 0.8222, total time: 11.32s ||
+Epoch:   10, mse_train: 125833.6172, delta_train: 13.0212, acc_train: 0.5219, epoch time: 1.17s
+Epoch:   11, mse_train: 119255.6875, delta_train: 13.4719, acc_train: 0.5234, epoch time: 1.14s
+Epoch:   12, mse_train: 107365.1016, delta_train: 14.3164, acc_train: 0.5232, epoch time: 1.16s
+Epoch:   13, mse_train: 98955.3047, delta_train: 15.2344, acc_train: 0.5265, epoch time: 1.20s
+save acc model at epoch : 14
+Epoch:   14, mse_train: 94446.0859, delta_train: 16.0359, acc_train: 0.5313, epoch time: 1.26s|| mse_val: 492200.1875, delta_val: 11.4723, acc_val: 0.5694, roc: 0.7541, dist: 9.3333, tri: 0.5333, total time: 17.45s ||
+Epoch:   15, mse_train: 91394.8281, delta_train: 16.6112, acc_train: 0.5331, epoch time: 1.14s
+Epoch:   16, mse_train: 85938.6328, delta_train: 16.9712, acc_train: 0.5344, epoch time: 1.16s
+Epoch:   17, mse_train: 80386.8203, delta_train: 17.1830, acc_train: 0.5352, epoch time: 1.18s
+Epoch:   18, mse_train: 75856.6016, delta_train: 17.2652, acc_train: 0.5366, epoch time: 1.48s
+Epoch:   19, mse_train: 72975.9922, delta_train: 17.2295, acc_train: 0.5386, epoch time: 1.49s|| mse_val: 521714.0625, delta_val: 11.9818, acc_val: 0.5665, roc: 0.8440, dist: 1.6667, tri: 0.8889, total time: 24.12s ||
+Epoch:   20, mse_train: 70091.7656, delta_train: 17.0876, acc_train: 0.5406, epoch time: 1.35s
+Epoch:   21, mse_train: 68115.6016, delta_train: 16.8391, acc_train: 0.5417, epoch time: 1.34s
+Epoch:   22, mse_train: 65346.3867, delta_train: 16.5484, acc_train: 0.5449, epoch time: 1.39s
+Epoch:   23, mse_train: 62338.3125, delta_train: 16.2993, acc_train: 0.5479, epoch time: 1.48s
+save best model at epoch : 24
+Epoch:   24, mse_train: 59401.5430, delta_train: 16.0773, acc_train: 0.5509, epoch time: 1.46s|| mse_val: 468754.5312, delta_val: 11.4854, acc_val: 0.5533, roc: 0.7683, dist: 11.0000, tri: 0.5333, total time: 31.35s ||
+Epoch:   25, mse_train: 57370.6797, delta_train: 15.8684, acc_train: 0.5533, epoch time: 1.34s
+Epoch:   26, mse_train: 55409.4531, delta_train: 15.7102, acc_train: 0.5553, epoch time: 1.33s
+Epoch:   27, mse_train: 53236.6406, delta_train: 15.6244, acc_train: 0.5562, epoch time: 1.47s
+Epoch:   28, mse_train: 51389.2695, delta_train: 15.5625, acc_train: 0.5564, epoch time: 1.31s
+save best model at epoch : 29
+Epoch:   29, mse_train: 50470.1641, delta_train: 15.5572, acc_train: 0.5564, epoch time: 1.31s|| mse_val: 462737.8750, delta_val: 11.2189, acc_val: 0.5507, roc: 0.7730, dist: 2.0000, tri: 0.8667, total time: 38.29s ||
+Epoch:   30, mse_train: 48609.1445, delta_train: 15.5856, acc_train: 0.5562, epoch time: 1.30s
+Epoch:   31, mse_train: 46823.3555, delta_train: 15.5611, acc_train: 0.5543, epoch time: 1.45s
+Epoch:   32, mse_train: 45196.1133, delta_train: 15.5163, acc_train: 0.5529, epoch time: 1.35s
+Epoch:   33, mse_train: 43695.0781, delta_train: 15.4210, acc_train: 0.5515, epoch time: 1.31s
+save best model at epoch : 34
+Epoch:   34, mse_train: 42443.6719, delta_train: 15.2838, acc_train: 0.5511, epoch time: 1.31s|| mse_val: 450251.1250, delta_val: 10.3302, acc_val: 0.5457, roc: 0.6738, dist: 17.6667, tri: 0.1333, total time: 45.21s ||
+Epoch:   35, mse_train: 41138.6250, delta_train: 15.1089, acc_train: 0.5512, epoch time: 1.40s
+Epoch:   36, mse_train: 40044.0078, delta_train: 14.9074, acc_train: 0.5520, epoch time: 1.59s
+Epoch:   37, mse_train: 38878.2930, delta_train: 14.6724, acc_train: 0.5536, epoch time: 1.59s
+Epoch:   38, mse_train: 37777.2734, delta_train: 14.4705, acc_train: 0.5549, epoch time: 1.54s
+save best model at epoch : 39
+Epoch:   39, mse_train: 36506.9531, delta_train: 14.3695, acc_train: 0.5560, epoch time: 1.50s|| mse_val: 433699.4688, delta_val: 9.2522, acc_val: 0.5417, roc: 0.6170, dist: 17.6667, tri: 0.1333, total time: 53.07s ||
+Epoch:   40, mse_train: 35376.4805, delta_train: 14.2764, acc_train: 0.5566, epoch time: 1.36s
+Epoch:   41, mse_train: 34269.9102, delta_train: 14.2782, acc_train: 0.5572, epoch time: 1.39s
+Epoch:   42, mse_train: 33006.2148, delta_train: 14.2751, acc_train: 0.5590, epoch time: 1.36s
+Epoch:   43, mse_train: 32063.0703, delta_train: 14.2792, acc_train: 0.5601, epoch time: 1.53s
+save best model at epoch : 44
+Epoch:   44, mse_train: 30924.1582, delta_train: 14.2731, acc_train: 0.5606, epoch time: 1.45s|| mse_val: 427195.1562, delta_val: 8.9032, acc_val: 0.5463, roc: 0.6312, dist: 21.6667, tri: 0.0889, total time: 60.38s ||
+Epoch:   45, mse_train: 30177.0391, delta_train: 14.2134, acc_train: 0.5618, epoch time: 1.37s
+Epoch:   46, mse_train: 29220.4434, delta_train: 14.1281, acc_train: 0.5622, epoch time: 1.34s
+Epoch:   47, mse_train: 28379.7617, delta_train: 13.9307, acc_train: 0.5628, epoch time: 1.49s
+Epoch:   48, mse_train: 27377.2188, delta_train: 13.7976, acc_train: 0.5633, epoch time: 1.41s
+save best model at epoch : 49
+Epoch:   49, mse_train: 26444.5703, delta_train: 13.6595, acc_train: 0.5637, epoch time: 1.34s|| mse_val: 410458.5938, delta_val: 8.3550, acc_val: 0.5430, roc: 0.6336, dist: 18.3333, tri: 0.0889, total time: 67.56s ||
+Optimization Finished!
+Best Epoch: 0049
+process data
+set model and train
+Epoch:    0, mse_train: 574229.5625, delta_train: 0.6900, acc_train: 0.5020, epoch time: 1.15s
+Epoch:    1, mse_train: 1577107.3750, delta_train: 2.0326, acc_train: 0.4918, epoch time: 1.10s
+Epoch:    2, mse_train: 350039.1875, delta_train: 7.9794, acc_train: 0.5088, epoch time: 1.12s
+Epoch:    3, mse_train: 230097.0000, delta_train: 11.0175, acc_train: 0.5165, epoch time: 1.24s
+save best model at epoch : 4
+save acc model at epoch : 4
+Epoch:    4, mse_train: 218800.3906, delta_train: 12.7254, acc_train: 0.5128, epoch time: 1.10s|| mse_val: 478919.0000, delta_val: 5.1200, acc_val: 0.5206, roc: 0.7636, dist: 11.3333, tri: 0.5111, total time: 5.87s ||
+Epoch:    5, mse_train: 212912.7188, delta_train: 13.5838, acc_train: 0.5121, epoch time: 1.15s
+Epoch:    6, mse_train: 198633.1406, delta_train: 13.7389, acc_train: 0.5129, epoch time: 1.13s
+Epoch:    7, mse_train: 170659.6094, delta_train: 13.5626, acc_train: 0.5144, epoch time: 1.22s
+Epoch:    8, mse_train: 142151.7500, delta_train: 13.2790, acc_train: 0.5173, epoch time: 1.47s
+save acc model at epoch : 9
+Epoch:    9, mse_train: 128880.6406, delta_train: 13.0024, acc_train: 0.5211, epoch time: 1.31s|| mse_val: 554988.5000, delta_val: 8.8190, acc_val: 0.5356, roc: 0.7447, dist: 2.6667, tri: 0.8222, total time: 12.42s ||
+Epoch:   10, mse_train: 125833.6172, delta_train: 13.0212, acc_train: 0.5219, epoch time: 1.28s
+Epoch:   11, mse_train: 119255.6875, delta_train: 13.4719, acc_train: 0.5234, epoch time: 1.38s
+Epoch:   12, mse_train: 107365.1016, delta_train: 14.3164, acc_train: 0.5232, epoch time: 1.52s
+Epoch:   13, mse_train: 98955.3047, delta_train: 15.2344, acc_train: 0.5265, epoch time: 1.65s
+save acc model at epoch : 14
+Epoch:   14, mse_train: 94446.0859, delta_train: 16.0359, acc_train: 0.5313, epoch time: 1.62s|| mse_val: 492200.1875, delta_val: 11.4723, acc_val: 0.5694, roc: 0.7541, dist: 9.3333, tri: 0.5333, total time: 20.14s ||
+Epoch:   15, mse_train: 91394.8281, delta_train: 16.6112, acc_train: 0.5331, epoch time: 1.56s
+Epoch:   16, mse_train: 85938.6328, delta_train: 16.9712, acc_train: 0.5344, epoch time: 1.52s
+Epoch:   17, mse_train: 80386.8203, delta_train: 17.1830, acc_train: 0.5352, epoch time: 1.41s
+Epoch:   18, mse_train: 75856.6016, delta_train: 17.2652, acc_train: 0.5366, epoch time: 1.38s
+Epoch:   19, mse_train: 72975.9922, delta_train: 17.2295, acc_train: 0.5386, epoch time: 1.30s|| mse_val: 521714.0625, delta_val: 11.9818, acc_val: 0.5665, roc: 0.8440, dist: 1.6667, tri: 0.8889, total time: 27.53s ||
+Epoch:   20, mse_train: 70091.7656, delta_train: 17.0876, acc_train: 0.5406, epoch time: 1.47s
+Epoch:   21, mse_train: 68115.6016, delta_train: 16.8391, acc_train: 0.5417, epoch time: 1.49s
+Epoch:   22, mse_train: 65346.3867, delta_train: 16.5484, acc_train: 0.5449, epoch time: 1.44s
+Epoch:   23, mse_train: 62338.3125, delta_train: 16.2993, acc_train: 0.5479, epoch time: 1.44s
+save best model at epoch : 24
+Epoch:   24, mse_train: 59401.5430, delta_train: 16.0773, acc_train: 0.5509, epoch time: 1.44s|| mse_val: 468754.5312, delta_val: 11.4854, acc_val: 0.5533, roc: 0.7683, dist: 11.0000, tri: 0.5333, total time: 35.03s ||
+Epoch:   25, mse_train: 57370.6797, delta_train: 15.8684, acc_train: 0.5533, epoch time: 1.82s
+Epoch:   26, mse_train: 55409.4531, delta_train: 15.7102, acc_train: 0.5553, epoch time: 1.58s
+Epoch:   27, mse_train: 53236.6406, delta_train: 15.6244, acc_train: 0.5562, epoch time: 1.51s
+Epoch:   28, mse_train: 51389.2695, delta_train: 15.5625, acc_train: 0.5564, epoch time: 1.78s
+save best model at epoch : 29
+Epoch:   29, mse_train: 50470.1641, delta_train: 15.5572, acc_train: 0.5564, epoch time: 1.91s|| mse_val: 462737.8750, delta_val: 11.2189, acc_val: 0.5507, roc: 0.7730, dist: 2.0000, tri: 0.8667, total time: 43.90s ||
+Epoch:   30, mse_train: 48609.1445, delta_train: 15.5856, acc_train: 0.5562, epoch time: 2.05s
+Epoch:   31, mse_train: 46823.3555, delta_train: 15.5611, acc_train: 0.5543, epoch time: 1.87s
+Epoch:   32, mse_train: 45196.1133, delta_train: 15.5163, acc_train: 0.5529, epoch time: 1.61s
+Epoch:   33, mse_train: 43695.0781, delta_train: 15.4210, acc_train: 0.5515, epoch time: 1.73s
+save best model at epoch : 34
+Epoch:   34, mse_train: 42443.6719, delta_train: 15.2838, acc_train: 0.5511, epoch time: 1.79s|| mse_val: 450251.1250, delta_val: 10.3302, acc_val: 0.5457, roc: 0.6738, dist: 17.6667, tri: 0.1333, total time: 53.24s ||
+Epoch:   35, mse_train: 41138.6250, delta_train: 15.1089, acc_train: 0.5512, epoch time: 1.54s
+Epoch:   36, mse_train: 40044.0078, delta_train: 14.9074, acc_train: 0.5520, epoch time: 1.54s
+Epoch:   37, mse_train: 38878.2930, delta_train: 14.6724, acc_train: 0.5536, epoch time: 1.53s
+Epoch:   38, mse_train: 37777.2734, delta_train: 14.4705, acc_train: 0.5549, epoch time: 1.56s
+save best model at epoch : 39
+Epoch:   39, mse_train: 36506.9531, delta_train: 14.3695, acc_train: 0.5560, epoch time: 1.95s|| mse_val: 433699.4688, delta_val: 9.2522, acc_val: 0.5417, roc: 0.6170, dist: 17.6667, tri: 0.1333, total time: 61.80s ||
+Epoch:   40, mse_train: 35376.4805, delta_train: 14.2764, acc_train: 0.5566, epoch time: 2.19s
+Epoch:   41, mse_train: 34269.9102, delta_train: 14.2782, acc_train: 0.5572, epoch time: 3.21s
+Epoch:   42, mse_train: 33006.2148, delta_train: 14.2751, acc_train: 0.5590, epoch time: 2.40s
+Epoch:   43, mse_train: 32063.0703, delta_train: 14.2792, acc_train: 0.5601, epoch time: 2.18s
+save best model at epoch : 44
+Epoch:   44, mse_train: 30924.1582, delta_train: 14.2731, acc_train: 0.5606, epoch time: 1.82s|| mse_val: 427195.1562, delta_val: 8.9032, acc_val: 0.5463, roc: 0.6312, dist: 21.6667, tri: 0.0889, total time: 74.00s ||
+Epoch:   45, mse_train: 30177.0391, delta_train: 14.2134, acc_train: 0.5618, epoch time: 1.70s
+Epoch:   46, mse_train: 29220.4434, delta_train: 14.1281, acc_train: 0.5622, epoch time: 1.58s
+Epoch:   47, mse_train: 28379.7617, delta_train: 13.9307, acc_train: 0.5628, epoch time: 1.65s
+Epoch:   48, mse_train: 27377.2188, delta_train: 13.7976, acc_train: 0.5633, epoch time: 1.58s
+save best model at epoch : 49
+Epoch:   49, mse_train: 26444.5703, delta_train: 13.6595, acc_train: 0.5637, epoch time: 1.58s|| mse_val: 410458.5938, delta_val: 8.3550, acc_val: 0.5430, roc: 0.6336, dist: 18.3333, tri: 0.0889, total time: 82.38s ||
+Optimization Finished!
+Best Epoch: 0049
+process data
+set model and train
